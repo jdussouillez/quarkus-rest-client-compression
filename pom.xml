@@ -19,7 +19,7 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>io.quarkus</groupId>
+                <groupId>io.quarkus.platform</groupId>
                 <artifactId>quarkus-bom</artifactId>
                 <version>999-SNAPSHOT</version>
                 <type>pom</type>
@@ -47,7 +47,7 @@
         <plugins>
             <!-- Quarkus -->
             <plugin>
-                <groupId>io.quarkus</groupId>
+                <groupId>io.quarkus.platform</groupId>
                 <artifactId>quarkus-maven-plugin</artifactId>
                 <version>999-SNAPSHOT</version>
                 <extensions>true</extensions>
